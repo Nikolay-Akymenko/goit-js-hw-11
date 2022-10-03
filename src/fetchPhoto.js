@@ -3,7 +3,7 @@ const axios = require('axios');
 // получение коллекции изображений с бэкэнда по заданному фильтру и кол-ву изображений на одной странице
 async function fetchPhoto(name, page, perPage) {
   try {
-    const API_KEY = '29969800-031613b21cddc77cf547ed849';
+    const API_KEY = '30326053-2e350350678dcfd0e97e0fb0b';
     const standartFilter =
       '&orientation=horizontal&safesearch=true&image_type=photo';
 
